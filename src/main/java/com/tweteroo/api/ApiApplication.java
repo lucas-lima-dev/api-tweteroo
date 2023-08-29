@@ -1,14 +1,14 @@
-package com.apitweteroo.apitweteroo;
+package com.tweteroo.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApitweterooApplication {
+public class ApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApitweterooApplication.class, args);
-		System.out.println("Hello World!");
+		SpringApplication.run(ApiApplication.class, args);
+		
 	}
 
 }
